@@ -94,7 +94,7 @@ h1>span {
 .laptop {
   width: 20%;
   position: absolute;
-  right: 0px;
+  right: 0;
   bottom: 0;
 }
 
@@ -217,4 +217,56 @@ p {
 }
 .footer a:hover {
   color: #1893F8;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 12px;
+  }
+  /* h1 {
+    font-size: 4rem;
+    
+  }
+  */
+  p {
+    width: 90%;
+  } 
+  .circleImg {
+    width: 22%;
+    right: 100px;
+  bottom: 30px;
+  }
+  .programImg {
+    width: 15%;
+    right: 105px;
+    bottom: 50px;
+  }
+  .about-me {
+    margin: 5rem 0;
+  }
+  .profileImg {
+    width: 25%;
+    align-self: center;
+  }
+  .laptop {
+    left: 0;
+    bottom: 0px;
+    display: none;
+  }
+  .carouselImg {
+    width: 80%;
+  }
+  .skills {
+    flex-direction: column;
+  }
+  .skills-logo {
+    width: 25%;
+  }
+  .cssLogo {
+    width: 18%;
+  }
+  .jsLogo {
+    width: 20%;
+  }
+
 }
